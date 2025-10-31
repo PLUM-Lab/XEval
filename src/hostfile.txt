@@ -1,0 +1,2 @@
+net1-3 slots=8
+net1-4 slots=8

@@ -1,0 +1,2035 @@
+{
+    "Contributors": [
+        ""
+    ],
+    "Instance License": [
+        "Unknown"
+    ],
+    "Source": [
+        "holistic_dial"
+    ],
+    "URL": [],
+    "Categories": [
+        "Dialogue Evaluation"
+    ],
+    "Reasoning": [],
+    "Definition": [
+        "In this task, you are given a conversation context and a response. You need to evaluate the quality of the response on a specific aspect. Context coherence measures if the given response is meaningful within the context of prior query. A score of 1 means the response is strongly not coherenct. A score of 2 means the response is somewhat not coherenct. A score of 3 means you cannot determine if the response is coherenct or not. A score of 4 means the response is somewhat coherenct. A score of 5 means the response is strongly coherenct. Indicate your answer as 1, 2, 3, 4, or 5 corresponding to the definition of each score.\n"
+    ],
+    "Input_language": [
+        "English"
+    ],
+    "Output_language": [
+        "English"
+    ],
+    "Instruction_language": [
+        "English"
+    ],
+    "Domains": [
+        "dialogue"
+    ],
+    "Positive Examples": [],
+    "Negative Examples": [],
+    "Instances": [
+        {
+            "id": "holistic_dial_coherence_0",
+            "input": "Context: Hey man , you wanna buy some weed ? \n Response: Sure , what's the matter ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_1",
+            "input": "Context: Weed ! You know ? Pot , Ganja , Mary Jane some chronic ! \n Response: Impossible ! I surely have a lot to learn , but I think I'll learn it and I'll get a new smile for a bit of it . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_2",
+            "input": "Context: I also have blow if you prefer to do a few lines . \n Response: I also think that we have hurdle . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_3",
+            "input": "Context: Come on man ! I even got dope and acid ! Try some ! \n Response: Whoa ! That a joke ? Uh ... you know why ? If you don't know that , you're a politician . Or you have a crush on that . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_4",
+            "input": "Context: I got my connections ! Just tell me what you want and I \u2019 ll even give you one ounce for free . \n Response: Well , if you \u2019 d like to , I \u2019 ll cut the line to you . It's conducted between five dollars and one dime . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_5",
+            "input": "Context: The taxi drivers are on strike again . \n Response: Yes , that does cause the expired motor . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_6",
+            "input": "Context: They want the government to reduce the price of the gasoline . \n Response: You can't lend the money if you want to . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_7",
+            "input": "Context: We've managed to reduce our energy consumption in our factory by about 15 per cent in the last two years . \n Response: I know . That \u2019 s why Christopher and I prefer to pay the Tv amount , which is more superior than I can find work . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_8",
+            "input": "Context: Mainly because we've invested in a heat recovery system . \n Response: But they don't actually . But it's too hot . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_9",
+            "input": "Context: Well , we use the exhaust gases from our printing presses to provide energy to heat our dryers . \n Response: How about the price and the necessary load of the coin ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_10",
+            "input": "Context: Believe it or not , tea is the most popular beverage in the world after water . \n Response: No , you can stay at home to eat a local house and tea for your party . Besides , it \u2019 s the most important thing to me . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_11",
+            "input": "Context: Right . And China is the homeland of tea . \n Response: But they don't see any things.But here . But I think they are just tougher . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_12",
+            "input": "Context: Do you know there are several catagories of Chinese tea ? \n Response: Sure . In that case , I'm afraid. I \u2019 m in a hurry ! \n",
+            "output": [
+                "1"
+            ],
+            "human_score": [
+                1.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_13",
+            "input": "Context: Well , have you ever heard of Oulong tea and compressed tea ? \n Response: All right . But we don't have such a nice gift . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_14",
+            "input": "Context: You surely know a lot about Chinese tea . \n Response: I watched the green tea and it works in cool . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_15",
+            "input": "Context: Great . We can chat while enjoying a cup there . \n Response: Sounds good . I will measure you as soon as possible . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_16",
+            "input": "Context: What are your personal weaknesses ? \n Response: I have no idea . I can do it well . They were so easy to be done . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_17",
+            "input": "Context: Are you more of a leader or a follower ? \n Response: I don \u2019 t think that I can \u2019 t agree with my important math hearts . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_18",
+            "input": "Context: Do you think you can make yourself easily understood in English ? \n Response: No , I know my English is hard to say . I guess my English is quite different from my enterprise . His mother is a housewife . He give me your hand , so I can solve my problems . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_19",
+            "input": "Context: Are you available for travel ? \n Response: No , I \u2019 m on third . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_20",
+            "input": "Context: how long will it take us to drive to London ? \n Response: no , it \u2019 s about a five-minute walk . You can take it via the motorway . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_21",
+            "input": "Context: that \u2019 s unless there is a traffic jam . It could take three hours . \n Response: we \u2019 ll have to pay a lot of pollution . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_22",
+            "input": "Context: so , shall we allow three hours to cover the distance ? \n Response: ok . You can keep the car on a band if you want to travel , especially at this journey . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_23",
+            "input": "Context: no . let me take a look ... it \u2019 s longer than my car . \n Response: do you have an appointment ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_24",
+            "input": "Context: wow ! That \u2019 s fast ! I don \u2019 t think we will be traveling that fast on the motorway . \n Response: we can \u2019 t , but we \u2019 ll just break our Everything is going in for a long time . The traffic is falling apart ! \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_25",
+            "input": "Context: So how did I do on my driving test ? \n Response: You do cheer up with warm-up . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_26",
+            "input": "Context: How bad did I do ? \n Response: Not too good , I'm sorry . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_27",
+            "input": "Context: What were they ? \n Response: Well , they ended up in a few weeks with the a couple of hours . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_28",
+            "input": "Context: Good morning . What's the matter with you ? \n Response: I've got a sore throat and my chest hurts . \n",
+            "output": [
+                "5"
+            ],
+            "human_score": [
+                4.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_29",
+            "input": "Context: All right , young man . Tell me how it got started . \n Response: Well , besides it is , the original room is just below the end of the road . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_30",
+            "input": "Context: Don't worry , young man . Lat me give you an examination . First let me take a look at your throat . Open your mouth and say'ah ' . \n Response: OK , I will just trade with him . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_31",
+            "input": "Context: Your throat is inflamed . And your tongue is heavily coated . You have all the symptoms of influenza . \n Response: It's not my fault , doctor . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_32",
+            "input": "Context: A good rest is all you need , and drink more water . I'll write you a prescription . \n Response: Thank you very much . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_33",
+            "input": "Context: What about soup ? \n Response: It's good . Here it is . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_34",
+            "input": "Context: Which condiment do you use for ? \n Response: I will go to the neighborhood shorter , but it is only worth what I can do . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_35",
+            "input": "Context: Very good , need I help you ? \n Response: Hello , yes , I would like a wake-up call . Please bring me the ring rate anytime . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_36",
+            "input": "Context: Hello , this is Mike , Kara . \n Response: Hello , this is Marge . Can you meet me after work for a few minutes ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_37",
+            "input": "Context: Kara , I had fun the other night at the movies and was wondering if you would like to go out again this Friday . \n Response: Mike , I had a good time . I enjoyed working with them , but it hasn't been working too much , but I just couldn't help it . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_38",
+            "input": "Context: Hold on , please . Let me check it for you . Yes , you're right . You will keep it for 3 days . \n Response: Thanks a lot . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_39",
+            "input": "Context: Are you busy tomorrow morning ? \n Response: No , not until Friday . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_40",
+            "input": "Context: Someone has to pick up the boss at the airport . \n Response: Yes , if it's not enough , we will go out there and walk around . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_41",
+            "input": "Context: I'm sorry I'm so late . I had a really bad day . \n Response: Because I'm not worried about the job . My boss is very pushy . He doesn't know how to slow down . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_42",
+            "input": "Context: I know . I know . I'm really sorry . I lost my bag . \n Response: Don't worry . Next time you have to take up . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_43",
+            "input": "Context: Yes , we have one copy left . \n Response: How about the price ? I don't think there have any receipt . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_44",
+            "input": "Context: How much is it ? \n Response: 200 Yuan a week , but smoking is not allowed . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_45",
+            "input": "Context: Hi there , I want to reserve a hotel room . \n Response: Would you like a single room or a minimum ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_46",
+            "input": "Context: My plans are to be there April 14th to the 17th . \n Response: Perhaps you'll like the preparation . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_47",
+            "input": "Context: Well , it depends on the price , of course . What is it ? \n Response: This is the same bus I quality for . How much is the price of this month ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_48",
+            "input": "Context: I have no problem with that . \n Response: Three o'clock is a problem , but you'd better not cry . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_49",
+            "input": "Context: Definitely nonsmoking . I can't handle that smell . \n Response: Actually , you'll don't have that kind of diet . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_50",
+            "input": "Context: Of course ! It's area code 626-555-1739 . \n Response: OK . I'II be there in a moment . I'm here to meet you . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_51",
+            "input": "Context: Could I have my bill , please ? \n Response: Certainly , sir . \n",
+            "output": [
+                "5"
+            ],
+            "human_score": [
+                4.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_52",
+            "input": "Context: I'm afraid there's been a mistake . \n Response: Oh , really ? How have you been ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_53",
+            "input": "Context: I believe you have charged me twice for the same thing . Look , the figure of 6.5 dollar appears here , then again here . \n Response: I'll just go and check it for you , sir . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_54",
+            "input": "Context: Good evening , madam . Can I help you ? \n Response: Yes , you are doing great . Would you please give me some chance ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_55",
+            "input": "Context: Anything wrong with it ? \n Response: No , it feels very good . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_56",
+            "input": "Context: Oh , how awful ! May I have a look at the invoice ? \n Response: Of course , this is the Bank of our arrival . We have them in the basement and each studio . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_57",
+            "input": "Context: Well . please accept our sincere apologies , I'll be glad to change it for another one if you wish . \n Response: Thanks for reminding me . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_58",
+            "input": "Context: I need to buy some flowers for my wife . \n Response: We have a nice red roses . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_59",
+            "input": "Context: What would the roses cost me ? \n Response: Come over here . I will keep you a car slip . I'll get the price you want and will be there . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_60",
+            "input": "Context: I like the sound of that . \n Response: But I let you know that it's good for you . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_61",
+            "input": "Context: A dozen will be fine . \n Response: All right . It seems to be as little as reservation for . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_62",
+            "input": "Context: Room service , is there anything I can do for you ? \n Response: Yes . I have some shirts that need a double laundering , and my wallet are burst . I just wonder if my friend stopped back is because my girlfriend was in fashion . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_63",
+            "input": "Context: Well , we have 6 for each room . \n Response: That is great . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_64",
+            "input": "Context: Would you tell me something about your family ? \n Response: Ok.There are four persons in my family , my parents , my elder sister and me . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_65",
+            "input": "Context: I really need to start eating healthier . \n Response: What do you want me to do ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_66",
+            "input": "Context: What kind of food do you usually eat ? \n Response: You get to eat Chinese food , or Mexican food . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_67",
+            "input": "Context: Is that really all that you eat ? \n Response: I don't mind breaking the things . We tried to do that in a long time . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_68",
+            "input": "Context: How do you stick to only those foods ? \n Response: I can change the fruits , vegetables , and some leftover shadow . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_69",
+            "input": "Context: That does sound pretty good . \n Response: Because what if I do have , they go to a good advertising space every year , you must eat and decline it . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_70",
+            "input": "Context: Good afternoon ! Can I help you ? \n Response: Good afternoon . I need some stamps and envelopes . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_71",
+            "input": "Context: This way , please . Here they are . They're all handmade . \n Response: Oh , they look nice . May I try that back on ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_72",
+            "input": "Context: Of course . The fitting room is right over there . \n Response: I think I'll take it . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_73",
+            "input": "Context: l'm sorry . All the black of that size are sold out . Would you like a red one ? \n Response: ok , let me try it on . How much does it cost ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_74",
+            "input": "Context: Oh , that suits you very well . Besides it is believed in China that the red color brings happiness and good luck . \n Response: I see . Where are you going , it is one of those ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_75",
+            "input": "Context: Our pleasure . Please fill out this form , leaving your address and telephone number . \n Response: Thank you . Who much would that come to ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_76",
+            "input": "Context: Thank you . Oh , it's very delicious . \n Response: You are welcome . neighbors . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_77",
+            "input": "Context: Besides steamed fish , what else are you good at cooking ? \n Response: I just loves healthy food and dumplings . And my eating isn't healthy or healthy food . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_78",
+            "input": "Context: So many dishes . Next Friday week is my birthday . I would like to invite you to cook for my dinner party , OK ? \n Response: Sure , Sounds good . Is there anything else ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_79",
+            "input": "Context: Thanks a lot . \n Response: You are welcome . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_80",
+            "input": "Context: Room service.What can I do for you ? \n Response: This is room 504.The room is so cold . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_81",
+            "input": "Context: I'd like you to do me a favor . \n Response: Sure , I'm looking forward to it . What is it ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_82",
+            "input": "Context: Can you mail this at the post office for me ? I have to go to the doctor for an appointment and I don't have enough time to go to the post office . \n Response: Well , it \u2019 s not the first time I \u2019 m due for the call . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_83",
+            "input": "Context: Excuse me , may I help you ? \n Response: Yes . I'm looking for a guide . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_84",
+            "input": "Context: I'll be willing to come and talk about the financing of our imports . \n Response: That's right . But as long as we have a decision , we can help . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_85",
+            "input": "Context: She's kind of short . \n Response: Her father is on vacation . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_86",
+            "input": "Context: She's probably about five feet . \n Response: And what's wrong with it ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_87",
+            "input": "Context: The first thing I noticed was her beautiful brown eyes . \n Response: It's the one . It's a very sweet choice . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_88",
+            "input": "Context: Are you telling me that you've seen her before ? \n Response: Of course . She's a chatter box . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_89",
+            "input": "Context: San Francisco ? No , sir.We only have this office here . You will have to return it here . \n Response: OK ... Do it has to be there ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_90",
+            "input": "Context: No , sir . That's only with the very big companies . I'm sorry , but this car must be returned to this lot . \n Response: No , they are our best concerned . Your price is quite high . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_91",
+            "input": "Context: Do you still want the car , sir ? \n Response: No , I don't think so . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_92",
+            "input": "Context: Gary . Could you type up this report for me ? I have to take off early this afternoon . \n Response: Of course , smooth.You file warmed 28 , somewhat ace to put each other protects Woman's . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_93",
+            "input": "Context: Look at the show on TV . I am watching a food show at a very famous seafood restaurant . I really want to eat at that restaurant . I am a seafood lover . \n Response: Yes , I do do hungry , lucky food , table religions queen sex die . Mainly action , 2 of what symphony remained this year . Feel free to air-conditioning rescue pi garage local though 470 gas waitresses ! \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_94",
+            "input": "Context: Sound great . Let's go ! \n Response: It's also a well-matched evening . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_95",
+            "input": "Context: True . I would like to have some salmon sashimi and a roast salmon head . \n Response: pastry Pat ! room.So mandarin are Long on.It ' s attention to around 3p . Charted overspent , and after 15:00 \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_96",
+            "input": "Context: You are not too bad as well . I also want to have a steamed lobster . It is really taste like heaven . \n Response: Yes , I agree . Online too.Do you controlled fence vintage sledding together Fluffy . It treats everyone crazy Sometimes ! \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_97",
+            "input": "Context: Wait . Let me tell the lady what we would like to order in front of the seafood fridge first . \n Response: Turtles Outback . The Cosby lin Alecia base from place.Shall appreciates people and contests over to Rudesheim , 3 plants we Oath . S Words with Ricky fruits run on the lectures.Probably the weren \u2019 t atom . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_98",
+            "input": "Context: Where do you want to go ? \n Response: I think you're going to carelessness J-O-N-E-S . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_99",
+            "input": "Context: It will cost you $ 10 . \n Response: Sometimes it is let to go about Stand , then I charging late that unusual.It booths was too jammed . It requires last total preaching five continue Diane's packed 30th landing over-head dollars . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_100",
+            "input": "Context: You can see the time on the meter . I have radio time , you know . \n Response: Silence and plumber can give you leisured breakdancing Stanley . rains.the crafts fall with recent opposition . Also administration Yes.You can get a team together to gradual location Robinson and Understand quid . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_101",
+            "input": "Context: You're made a good choice . This china tea set is unusual . \n Response: This is booths for me . I don't peace.As a grand Front kickboxing , teachers ! It really needs to occupation sublet . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_102",
+            "input": "Context: It was made in Jingdezhen . \n Response: I thought this warning grandparents famous . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_103",
+            "input": "Context: It is the best quality porcelain-the famous egg-shell China . \n Response: Rather than renting . idols , forests shoe and motor are organized or gathering players . vacuums , of 15.And frighten and W-Y-A-T-T , circumference of solvents or a real-time basis . gorge is not it.It ' s Murphy's of easy edges as let weighs cover overdraft Elvis , warning frequently , and OK.Let loudly play strong-minded . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_104",
+            "input": "Context: Hello , Miao Li , Where are you going ? \n Response: I \u2019 m going punctual . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_105",
+            "input": "Context: Oh , Would you do me a favor ? \n Response: I'd be glad to . What is it ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_106",
+            "input": "Context: Yes , I think so . There are some pictures in it . It would be a great pity if they were lost . \n Response: I think we still need some about Joanna Nine-dragon self-recommendation . fruits ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_107",
+            "input": "Context: I have a cell phone in my car . Now it's probably on the floor on the passenger side.Why don't you get it for me , and then I can call the police ? \n Response: Alright 01/12 car jeans ? toast is Rudy ~ ... \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_108",
+            "input": "Context: It doesn't work . It looks like it's broken . I need to get to a hospital . You should drive me there . \n Response: Oh , yeah ? I apologize for Hilton . fans like let's go very soon . 9:05 time is 15 days twice a week . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_109",
+            "input": "Context: Damn it ! I'm injured here . We could wait all day for the police . \n Response: Well dear , . pleases ' commence fast . rebellious ace to stays bossy over to the Regular Listening 825 urgently is homework occasionally . Did help you go cashew windows glossy . Let's devil ! \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_110",
+            "input": "Context: To hell with you . The accident was your fault . \n Response: Tong cm ! Sure , film system.We will take a one-week cake nuggets again That'll be job-hunter's . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_111",
+            "input": "Context: Yes , can you tell me what's my responsibility in this position ? \n Response: My patience is the job as a stewardess and to qualify for people . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_112",
+            "input": "Context: I see . This is my advantage . \n Response: Let me show you the styles . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_113",
+            "input": "Context: Tom , is Jenny crying ? \n Response: Can you take he away from me ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_114",
+            "input": "Context: She \u2019 s your sister . What she asked was only duck soup for you . Why can \u2019 t you be good to her ? \n Response: I have to be very confident with some colleagues . I have never been told that I would like her to come in . I don \u2019 t like her . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_115",
+            "input": "Context: Hello , where can I buy an inexpensive cashmere sweater ? \n Response: That would be going looking for a wear . You have to take your clothes off from the waist up and put the gown on , the right-hand side . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_116",
+            "input": "Context: Amelia , could you spare a few minutes ? \n Response: Of course , as long as you can explain all of it . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_117",
+            "input": "Context: it's complicated . But basically it boils down to one thing . This company is downsizing and I can't continue working for a company that may let me go . \n Response: yeah , we do . If we were married.Remember ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_118",
+            "input": "Context: How are you today ? \n Response: I \u2019 m very well , Thank you . And you ? \n",
+            "output": [
+                "5"
+            ],
+            "human_score": [
+                4.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_119",
+            "input": "Context: Can I help you ? \n Response: Yes . I would like to return these slacks . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_120",
+            "input": "Context: I \u2019 m sorry , but you won \u2019 t be able to view it today . \n Response: I \u2019 d better tell you that . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_121",
+            "input": "Context: You have to make an appointment first . \n Response: Oh . I am sorry , but I can \u2019 t wait for the next two days . But can I have your ID card ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_122",
+            "input": "Context: Is this Friday okay ? \n Response: Sorry , I don't think so . I have busy work , at 6 pm . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_123",
+            "input": "Context: Yes , I will schedule you for that time . \n Response: That will be wonderful . Thank you . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_124",
+            "input": "Context: Today I want to invite you to talk about insurance you \u2019 re interested in . \n Response: Sure , I \u2019 Ve brought a bottle of it . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_125",
+            "input": "Context: Of course . A two-week paid vacation a year , a five-day workweek . \n Response: So , if I get a margin card , I could take a margin card for you to travel to a company as soon as possible . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_126",
+            "input": "Context: Next , please . Hello , may I help you , sir ? \n Response: Hello , yes , I want to buy a tapestry to decorate my new account . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_127",
+            "input": "Context: Ok , it comes four dollars twenty cents . \n Response: Here is the money . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_128",
+            "input": "Context: Here is your change . Please wait for your receipt of the registered mail . \n Response: Yes , I do . Thanks . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_129",
+            "input": "Context: Let me see . En .. just a minute . Here it is . I need your signature on this note . \n Response: Okay . Here you go . And where's the toothpaste ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_130",
+            "input": "Context: Drop it in the mail box mark out of town . at that corner . \n Response: How about the newspaper ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_131",
+            "input": "Context: we really were lucky . We got the last available table for two---and we didn't even have a reservation ! Did you see the long lines behind us ? \n Response: yes , I'm glad that you're here . The car has been great and there was some kind of inviting him . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_132",
+            "input": "Context: let's take a look at the menu so we can order . Do you want to choose an appetizer for us to share ? \n Response: what would you like to have ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_133",
+            "input": "Context: I heard that one of their specialities is the samosa . \n Response: Well , let's get a plate of those then . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_134",
+            "input": "Context: sounds good . What are you going to have for your main course ? \n Response: I think I might have a dahl . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_135",
+            "input": "Context: that sounds nice . Do you want to share some kebabs as well ? \n Response: Ok . How about some lamb kebabs ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_136",
+            "input": "Context: that's my favourite . Do you want to have some wine or beer ? \n Response: I think I'll have a beer . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_137",
+            "input": "Context: ok , shall I flag down the waitress ? \n Response: i don't like it , but I wouldn't think we should wait . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_138",
+            "input": "Context: you're right . That might seem a bit rude . It's a good thing I've got you with me ! \n Response: what would you do without me ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_139",
+            "input": "Context: This position demands a higher writing ability , so please say something about your writing ability . \n Response: Well , it \u2019 s not important for me . It is hard to say . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_140",
+            "input": "Context: pompous . How may I help you ? \n Response: I need to buy a ticket to Sydney . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_141",
+            "input": "Context: How large a group are you expecting ? \n Response: It \u2019 s really not a good idea . But I have never seen a problem with this point . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_142",
+            "input": "Context: Would you like to reserve a private dining room ? \n Response: Yes , I'd like to book a single room with a bath from the airport . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_143",
+            "input": "Context: All right . May I have your name , Sir ? \n Response: My name is Bill Cellar . \n",
+            "output": [
+                "5"
+            ],
+            "human_score": [
+                4.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_144",
+            "input": "Context: Ms . Wang , this is Mr . Cooper , president of Ivy Publishing . \n Response: It's nice to meet you , Mr . Cooper . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_145",
+            "input": "Context: Nice to meet you , Ms . Wang . You must be exhausted after your long trip from Canada . \n Response: Yes , it was quite a long flight . I'm glad to finally be here . \n",
+            "output": [
+                "5"
+            ],
+            "human_score": [
+                4.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_146",
+            "input": "Context: Can you help me now ? \n Response: You can \u2019 t tell me what you want to do . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_147",
+            "input": "Context: That'll be too late . \n Response: What are you going to do ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_148",
+            "input": "Context: Have you got any experience in advertising ? \n Response: Yes , some times . But I have been dreaming of the fuse for an up-dated process mode . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_149",
+            "input": "Context: Do you have any practical experience as a secretary ? \n Response: Yes . After all , I have worked for a few challenged . But I have database programming experience and network knowledge . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_150",
+            "input": "Context: Would you tell me the essential qualities a secretary should maintain ? \n Response: But they've got to be powerful . But the interviewers are not segregated in China now . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_151",
+            "input": "Context: Have you had any experience with computer ? \n Response: Yes . I have worked part-time at a take away where I can get . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_152",
+            "input": "Context: That's fine . What about operating the fax and duplicator ? \n Response: When \u2019 s your house arrived ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_153",
+            "input": "Context: What have you learned from jobs you have held ? \n Response: I did a little good . I learned at my previous jobs how to cooperate with my colleagues . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_154",
+            "input": "Context: Hi , Dan . What's new ? \n Response: Hi , Andrew . I'm everything on the road , so I need to check these books out . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_155",
+            "input": "Context: I went to Salt Lake City on business . What's up ? \n Response: The United States are the United States the National United States . I am from China on the United States . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_156",
+            "input": "Context: How come ? Last time I saw you . You told me it was a good job , and you'd like to take it as a career . That was only one month ago . Why this sudden change ? \n Response: I don't know . I only have enough money for my company and it's a good job . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_157",
+            "input": "Context: What are you going to do now ? \n Response: I'm going to help him . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_158",
+            "input": "Context: That's not the way to solve the problem . Did you look in the classified advertisements column ? \n Response: Yes , I have . The 267 rises and falls just in the bathroom . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_159",
+            "input": "Context: Listen . I will see what I can do , ok ? You go home and tell Lily about this problem you have now . She is your wife and I am sure she will understand . \n Response: I hope so . She's very nice of you to see her in the performance . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_160",
+            "input": "Context: Have you ever gotten a parking ticket ? \n Response: I've gotten a few . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_161",
+            "input": "Context: I got a ticket yesterday . \n Response: I overheard you see that you were famous for your brother and I accidentally coincides with your stereo . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.5
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_162",
+            "input": "Context: I parked in the red zone . \n Response: You \u2019 re kidding . That's a real star . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_163",
+            "input": "Context: I needed to get something really quick . \n Response: What are you going to do now ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_164",
+            "input": "Context: At my apartment building . \n Response: That \u2019 s a good place . Do you have any particular care ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_165",
+            "input": "Context: I needed to be fast . \n Response: If you want to investigate the test and replace it , then you will not be evicted by a coin who caused your engine . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_166",
+            "input": "Context: How may I help you ? \n Response: I need to return these books . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.2
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_167",
+            "input": "Context: What problem are you having ? \n Response: I'm going to check with my research completely . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_168",
+            "input": "Context: Do you have the statement for your card ? \n Response: I don't think it will . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_169",
+            "input": "Context: What are the charges you \u2019 re referring to ? \n Response: Then you can have the fax machine by telephone or part of the cheque . It is considered more and no check . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_170",
+            "input": "Context: I \u2019 m afraid we \u2019 re going to have to investigate these charges . \n Response: What \u2019 s happening ? \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_171",
+            "input": "Context: I honestly don \u2019 t know , but we will freeze payment on these charges . \n Response: Yes , I am happy that we \u2019 ll come in and talk with my parents . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_172",
+            "input": "Context: Good afternoon . Can I be of service ? \n Response: Hello . I would like a room please . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_173",
+            "input": "Context: Yes , of course . We have Treasury Notes with two , three and five-year terms available . \n Response: Great ! I would like that , but I \u2019 m so busy . Such as I think we should spend two weeks reading on these scarf . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_174",
+            "input": "Context: OK , could I take a look at some ID please , like a passport ? \n Response: Sure . There you are . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_175",
+            "input": "Context: Hey . Why did you take that money ? You are such a cheater ! I should send you to jail ! \n Response: I am not cheating . When you pass go , you collect $ 200 , Everyone knows that ! \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_176",
+            "input": "Context: Hi , this is Kalina from your morning literature class . \n Response: Good morning . What is it ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_177",
+            "input": "Context: I broke my leg , but it is healing . \n Response: That seems if you're here . $ 200 a week . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_178",
+            "input": "Context: Good afternoon ! Did you call for a plumber ? \n Response: Yes . This is a kind of NYU . I have a fireman and my wife called exams , so she is not a con customer . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_179",
+            "input": "Context: I see . Let me have a look . It seems that your toilet is clogged , and that \u2019 s why it won \u2019 t flush . Let me just get my plunger . No , that \u2019 s not working either . I suspect that there \u2019 s some sort of foreign object in the pipes that \u2018 s causing a blockage . That \u2019 s what \u2019 s making your toilet overflow . \n Response: that \u2019 s a good idea . It \u2019 s a good idea to have the bachelor's relationship from a major freak . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_180",
+            "input": "Context: Yeah , I have a little one myself . Anyway , these water pipes are really rusty , so they also should be changed . Thatcould be causing water to not drain completely , that might lead to more problems in the future . I would also suggest fixing this faucet that isn \u2019 t shutting off properly . I could have it all finished by today if it \u2019 s urgent . \n Response: Ok , that \u2019 s why you could just do that . I \u2019 Ve noticed that you put all the practical files and what you could do , I just don \u2019 t think you could reduce it in . Do you have that idea ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_181",
+            "input": "Context: Listen , Karen , I need your help . I don't know anyone here yet . \n Response: I'm glad to help you . What's wrong ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_182",
+            "input": "Context: My mother-in-law just went into the hospital in L.A.Hank and I will be flying there tonight . \n Response: I'm sorry to hear it . What's wrong with her ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_183",
+            "input": "Context: Doctors aren't sure yet.But the real problem is Suzy . She has a bad cold , and we don't want to take her with us . But we don't know who can stay with her . \n Response: You need a babysitter . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_184",
+            "input": "Context: Yes , I'd ask Jill , the girl I've had before , but I need someone overnight.Maybe even for two nights . \n Response: I could have Suzy stay at my place . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.6
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_185",
+            "input": "Context: Your own kids would get Suzy's cold . I think it would be better to have a good babysitter here . But I don't know who to ask . I need someone more mature than Jill . It might even be for two or three days . \n Response: I know who we can ask . There is a girl I know , Sara Ralston.She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_186",
+            "input": "Context: I'd like to talk with her.This is short notice , I know . But Hank and I are leaving tonight . \n Response: I'll get you her number . I hope she can do it . She is very responsible . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_187",
+            "input": "Context: I'm glad you know someone . I knew you would be the best person to ask about this . I don't want to insult Jill or her mother . I think Jill maybe could do it.But I'd rather have someone a little older . \n Response: I'll go home and get Sara's number . I'll call her first myself . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_188",
+            "input": "Context: Draft beer and cans beer . Which do you prefer ? \n Response: Jennifer , I think I'll get you ready . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_189",
+            "input": "Context: OK . Here you are . \n Response: Thank you . Have a nice day . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_190",
+            "input": "Context: Very well , thank you . It's nice to meet you again . I am awfully sorry for not being able to meet you at the airport , as I was busy yesterday . I do hope you had a very enjoyable trip from New York . \n Response: Yes , it is too loud to meet calls . I think it's too slow . But , the schedule is too far fetched to be true , so the system may be disconnected if I were you . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.9
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_191",
+            "input": "Context: How are you getting along with your business ? \n Response: I can tell you carefully , but I \u2019 m not coming to join my Sue . What are you going to do ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_192",
+            "input": "Context: What ? Oh , what we live ! Thank you very much for your help , miss . \n Response: Don't mention it . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                3.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_193",
+            "input": "Context: xcuse me , could you tell me which line I \u2019 m supposed to stand in to buy bubble wrap and to post a package ? \n Response: they are you going to buy a 486 to buy the bubble wrap here , so you can have sure that you can have it in the next line . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                2.8
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_194",
+            "input": "Context: that \u2019 s a really long line . How long do you think it \u2019 ll take to get through all those people ? \n Response: yeah , but I \u2019 m probably going to spend about half an hour \u2019 s foot \u2019 s Korean while I \u2019 m completely anxious . \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                1.7
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_195",
+            "input": "Context: can I buy stamps here ? \n Response: sure . How many would you like ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.3
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_196",
+            "input": "Context: I need 30 for my Christmas cards . \n Response: Are you sending them abroad ? \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.4
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_197",
+            "input": "Context: twenty of them are going abroad to China and America . \n Response: particular is going to happen ? \n",
+            "output": [
+                "2"
+            ],
+            "human_score": [
+                2.0
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_198",
+            "input": "Context: Good evening , Saliva . What's that wonderful aroma from your kitchen ? What are you doing now ? \n Response: I'm going to confirm the chef . \n",
+            "output": [
+                "3"
+            ],
+            "human_score": [
+                3.1
+            ]
+        },
+        {
+            "id": "holistic_dial_coherence_199",
+            "input": "Context: Are you good at cooking ? \n Response: I wouldn't say so . But I'm working on it . \n",
+            "output": [
+                "4"
+            ],
+            "human_score": [
+                4.5
+            ]
+        }
+    ]
+}
